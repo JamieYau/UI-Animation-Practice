@@ -1,0 +1,32 @@
+{
+  "name": "@jamieyau/dropdown",
+  "version": "1.0.0",
+  "description": "A reusable dropdown module",
+  "author": "JamieYau <jamie.yau2002@me.com>",
+  "homepage": "https://github.com/JamieYau/UI-Animation-Practice#readme",
+  "license": "ISC",
+  "main": "lib/dropdown.js",
+  "exports": {
+    ".": {
+      "node": "./lib/dropdown.js",
+      "default": "./lib/dropdown.js"
+    }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamieYau/UI-Animation-Practice.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/dropdown.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/JamieYau/UI-Animation-Practice/issues"
+  }
+}

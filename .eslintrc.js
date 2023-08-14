@@ -22,5 +22,12 @@ module.exports = {
   rules: {
     noConsole: "off",
     quotes: ["error", "double"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+      },
+    ],
   },
 };
