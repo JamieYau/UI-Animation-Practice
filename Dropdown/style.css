@@ -1,6 +1,20 @@
+#dropdownButton {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.112);
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
 #dropdownMenu {
   max-height: 0;
   overflow: hidden;
+  list-style: none;
+  width: 200px;
+  padding: 0;
+  margin: 5px;
+  background-color: #e4e4e4;
   transition: max-height 0.3s ease-out;
 }
 
