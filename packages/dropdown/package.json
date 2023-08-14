@@ -18,7 +18,9 @@
   "files": [
     "lib"
   ],
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JamieYau/UI-Animation-Practice.git"
@@ -29,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/JamieYau/UI-Animation-Practice/issues"
   },
-  "gitHead": "f2df376c31023e16d55cbe05b97493f018a597ec"
+  "gitHead": "9f3f4830236b499c5fea394521f94ba5837b0e39"
 }
