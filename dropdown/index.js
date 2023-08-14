@@ -1,4 +1,4 @@
-import dropdown from "../packages/dropdown/lib/dropdown.js";
+import dropdown from "./modules/dropdown.js";
 
 // Get all dropdown buttons and menus
 const dropdownButtons = document.querySelectorAll(".dropdown-button");
@@ -7,4 +7,3 @@ const dropdownMenus = document.querySelectorAll(".dropdown-menu");
 dropdownButtons.forEach((dropdownButton, index) => {
   dropdown(dropdownButton, dropdownMenus[index]);
 });
-

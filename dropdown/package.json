@@ -1,0 +1,19 @@
+{
+  "name": "@jamieyau/dropdown",
+  "version": "1.0.0",
+  "description": "A reusable dropdown module",
+  "author": "JamieYau <jamie.yau2002@me.com>",
+  "homepage": "https://github.com/JamieYau/UI-Animation-Practice#readme",
+  "license": "MIT",
+  "main": "modules/dropdown-cjs.js",
+  "module": "modules/dropdown.js",
+  "exports": {
+    ".": {
+      "import": "./modules/dropdown.js",
+      "require": "./modules/dropdown-cjs.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
