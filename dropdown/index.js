@@ -28,3 +28,5 @@ const dropdownMenus = document.querySelectorAll(".dropdown-menu");
 dropdownButtons.forEach((dropdownButton, index) => {
   setupDropdown(dropdownButton, dropdownMenus[index]);
 });
+
+module.exports = setupDropdown;
