@@ -21,3 +21,13 @@
 #dropdownMenu.show {
   max-height: 200px; /* Adjust the value based on your content */
 }
+
+#dropdownMenu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+
+#dropdownMenu li:hover {
+  background-color: #ddd;
+}
