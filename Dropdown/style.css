@@ -1,9 +1,9 @@
-/* This class hides the dropdown initially */
-.hidden {
-  display: none;
+#dropdownMenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 
-/* Show the dropdown when the button is clicked */
-.show {
-  display: block;
+#dropdownMenu.show {
+  max-height: 200px; /* Adjust the value based on your content */
 }
