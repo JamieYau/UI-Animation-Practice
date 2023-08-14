@@ -1,4 +1,4 @@
-#dropdownButton {
+.dropdown-button {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -7,7 +7,7 @@
   padding: 10px 20px;
 }
 
-#dropdownMenu {
+.dropdown-menu {
   max-height: 0;
   overflow: hidden;
   list-style: none;
@@ -18,16 +18,16 @@
   transition: max-height 0.3s ease-out;
 }
 
-#dropdownMenu.show {
+.dropdown-menu.show {
   max-height: 200px; /* Adjust the value based on your content */
 }
 
-#dropdownMenu li {
+.dropdown-menu li {
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease-out;
 }
 
-#dropdownMenu li:hover {
+.dropdown-menu li:hover {
   background-color: #ddd;
 }
