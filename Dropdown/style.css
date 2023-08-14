@@ -1,0 +1,9 @@
+/* This class hides the dropdown initially */
+.hidden {
+  display: none;
+}
+
+/* Show the dropdown when the button is clicked */
+.show {
+  display: block;
+}
