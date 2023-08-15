@@ -1,4 +1,4 @@
-import dropdown from "./modules/dropdown.js";
+import  dropdown  from "./dropdownES6.js";
 
 // Get all dropdown buttons and menus
 const dropdownButtons = document.querySelectorAll(".dropdown-button");
